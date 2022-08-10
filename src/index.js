@@ -11,4 +11,4 @@ const main = async () => {
 
     }
 }
-main();
+setTimeout(() => main(), 5000)
