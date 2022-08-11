@@ -7,8 +7,9 @@ const main = async () => {
         await greet();
         await speakInfo();
     }
-    catch {
-
+    catch (e) {
+        console.log(e)
     }
 }
-setTimeout(() => main(), 5000)
+main();
+// setTimeout(() => main(), 5000)
